@@ -1,11 +1,11 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "3444a1b90e907c6adecad97f1716b8297da7cd9eee69b34e9be7ecc42babf7a2"
+            "sha256": "a0e8e633ea67e935ad6d11aa41a40e6db38130e762a4f54b64eb6f8a7e2cd501"
         },
         "pipfile-spec": 6,
         "requires": {
-            "python_version": "3.8"
+            "python_version": "3.9"
         },
         "sources": [
             {
@@ -358,14 +358,6 @@
             ],
             "markers": "python_version < '3.10'",
             "version": "==5.0.0"
-        },
-        "importlib-resources": {
-            "hashes": [
-                "sha256:c01b1b94210d9849f286b86bb51bcea7cd56dde0600d8db721d7b81330711668",
-                "sha256:ee17ec648f85480d523596ce49eae8ead87d5631ae1551f913c0100b5edd3437"
-            ],
-            "markers": "python_version < '3.9'",
-            "version": "==5.10.0"
         },
         "ipykernel": {
             "hashes": [
@@ -845,6 +837,7 @@
                 "sha256:2e0918e03aa0c72ea56edbb00d4d664294815aa11291a11504a377ea018330d3",
                 "sha256:3033fbe1feb1b59394615a1cafaee85e49d01b51d54de0cbf6aa8e64182518a1",
                 "sha256:3168434d303babf495d4ba58fc22d6604f6e2afb97adc6a423e917dab828939c",
+                "sha256:32a44128c4bdca7f31de5be641187367fe2a450ad83b833ef78910397db491aa",
                 "sha256:3dd6caf940756101205dffc5367babf288a30043d35f80936f9bfb37f8355b32",
                 "sha256:40e1ce476a7804b0fb74bcfa80b0a2206ea6a882938eaba917f7a0f004b42502",
                 "sha256:41e0051336807468be450d52b8edd12ac60bebaa97fe10c8b660f116e50b30e4",
@@ -889,19 +882,12 @@
                 "sha256:c7025dce65566eb6e89f56c9509d4f628fddcedb131d9465cacd3d8bac337e7e",
                 "sha256:c935a22a557a560108d780f9a0fc426dd7459940dc54faa49d83249c8d3e760f",
                 "sha256:dbb8e7f2abee51cef77673be97760abff1674ed32847ce04b4af90f610144c7b",
+                "sha256:e6ea6b856a74d560d9326c0f5895ef8050126acfdc7ca08ad703eb0081e82b74",
                 "sha256:ebf2029c1f464c59b8bdbe5143c79fa2045a581ac53679733d3a91d400ff9efb",
                 "sha256:f1ff2ee69f10f13a9596480335f406dd1f70c3650349e2be67ca3139280cade0"
             ],
             "markers": "python_version >= '3.7'",
             "version": "==9.3.0"
-        },
-        "pkgutil-resolve-name": {
-            "hashes": [
-                "sha256:357d6c9e6a755653cfd78893817c0853af365dd51ec97f3d358a819373bbd174",
-                "sha256:ca27cc078d25c5ad71a9de0a7a330146c4e014c2462d9af19c6b828280649c5e"
-            ],
-            "markers": "python_version < '3.9'",
-            "version": "==1.3.10"
         },
         "prometheus-client": {
             "hashes": [
@@ -1291,7 +1277,7 @@
                 "sha256:4fcb6f278987a6605757302a6e40e896257570d11c51628968ccb2a47e80c6c1",
                 "sha256:7a7262fd930bd3e36c50b9a64897aec3fafff3dfdeec9623ae22b40e93f99bb8"
             ],
-            "markers": "python_version < '3.10'",
+            "markers": "python_version >= '3.7'",
             "version": "==3.10.0"
         }
     },
