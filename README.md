@@ -61,7 +61,7 @@ you will need to run:
 
 > ! pip install pipenv
 >
-> ! git clone https://github.com/hip023/ts-preprocessing.git
+> ! git clone https://github.com/hip023/suit.git
 > 
 > ! pipenv sync
 >
