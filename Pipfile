@@ -9,6 +9,7 @@ pandas = "*"
 matplotlib = "*"
 jupyter = "*"
 kaggle = "*"
+statsmodels = "*"
 
 [dev-packages]
 
