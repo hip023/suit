@@ -1,23 +1,14 @@
 import hashlib
 from typing import Union
 
-# If you got here, answers are hashed :) go and do your homework please :) :)
+# If you got here - you're in the wrong place. go and do your homework please :) :)
 ANSWERS = {
-    "E1": [b'\x9d\xfc\xd5\xe5X\xdf\xa0J', b'\xc1jS \xfaGU0', b'\xff\x9b?\x96\xd3sS\xc5', b'{\xcd\xf7Z\xd27\xb8\xe0'],
-    "E2": [b'\xd4y&:\x148\xa8\xf9', b'\x9d\xfc\xd5\xe5X\xdf\xa0J', b'\xba\xfds"\xc6\xe9}%', b'\xba\xfds"\xc6\xe9}%',
-           b'\x9a\xe0\xa5\x04\xe3\xaf\x13\xe2', b'&\xa9[;\xf6\xc0\xfaK', b'1\xfe\xfc\x0eW\x0c\xb3\x86'],
-    "E3": [b'\xa8\x7f\xf6y\xa2\xf3\xe7\x1d', b'\xce\xe61\x12\x1c.\xc9#', b'\x07+\x03\x0b\xa1&\xb2\xf4',
-           b'\xc8\x1er\x8d\x9dL/c', b'\x14\xbf\xa6\xbb\x14\x87^E', b'\x14\xbf\xa6\xbb\x14\x87^E',
-           b'\x16y\t\x1cZ\x88\x0f\xaf'],
-    "E4": [b'\xe3i\x85=\xf7f\xfaD', b'\xcf\xcd \x84\x95\xd5e\xef', b'\x16y\t\x1cZ\x88\x0f\xaf'],
-    "E5": [b'n\xa9\xab\x1b\xaa\x0e\xfb\x9e', b"\xf8'\xcfF/b\x84\x8d", b'\x9b\xf3\x1c\x7f\xf0b\x93j', b'\xf82\x0b&\xd3\n\xb43'],
+    "E1": [311, 31, 'int64', 467],
+    "E2": [13607, 311, 'No', 'No', 32568, 13209, 187],
+    "E3": [4, 500, 60, 2, 69, 69, 6],
+    "E4": [34, 0, 6],
+    "E5": [29, True, 15, False],
 }
-
-
-def get_hash(s: Union[str, int]):
-    if not isinstance(s, str):
-        s = str(s)
-    return hashlib.md5(s.encode()).digest()[:8]
 
 
 def test_your_notebook(notebook, *args):
@@ -26,8 +17,7 @@ def test_your_notebook(notebook, *args):
         raise ValueError("YOUR GRADE: 0! ")
 
     answers = ANSWERS.get(notebook)
-    response_hash = [get_hash(a) for a in args]
-    correct_answers = [answers[i] == response_hash[i] for i, _ in enumerate(answers)]
+    correct_answers = [answers[i] == args[i] for i, _ in enumerate(answers)]
 
     grade = int(100 * sum(correct_answers) / len(correct_answers))
 
