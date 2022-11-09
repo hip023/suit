@@ -17,7 +17,7 @@ Lecture 2, November 9th, 2022
 <!-- TOC -->
 
 # 1. Meta Structure
-This git repository is accompanying DataNights Time Series Course, [Lecture 2 - Preprocessing]().
+This git repository is accompanying DataNights Time Series Course, [Lecture 2 - Preprocessing](https://youtube.com/playlist?list=PLqUgQWKY9ChAu7XAE3FZiqWMsdidxx-EV).
 it is highly recommended to watch the lecture before you jump into the code!
 
 The lecture meta structure consists 5 micro-lectures.
@@ -32,7 +32,7 @@ Each lecture has a link to YouTube, corresponding lecture code, exercise noteboo
 <img src="assets/structure.png" alt="structure"></a>
 
 # 2. Access Materials
-[YouTube: Lecture 2 - Preprocessing]()
+[YouTube: Lecture 2 - Preprocessing](https://youtube.com/playlist?list=PLqUgQWKY9ChAu7XAE3FZiqWMsdidxx-EV)
 Cheat-Sheet and Lectures PDF can be found in "lectures_pdf" folder
 
 # 3. Setup
